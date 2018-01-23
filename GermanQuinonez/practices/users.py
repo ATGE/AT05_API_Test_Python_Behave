@@ -2,6 +2,11 @@ dictionary = {}
 
 
 def valid_user_id(user_id):
+    """
+    This function valid a user id
+    :param user_id: user id
+    :return: boolean
+    """
     if (user_id > 0) & (user_id < 101):
         return True
     print('the user ID should be only numbers between 1 to 100.')
@@ -9,6 +14,11 @@ def valid_user_id(user_id):
 
 
 def valid_user_name(user_name):
+    """
+    This function valid a user name
+    :param user_name: user name
+    :return: boolean
+    """
     if len(user_name) <= 8:
         return True
     print('User name should be only lowercase (nor more than 8 digits)')
