@@ -12,4 +12,4 @@ Feature: Gmail account
       And I fill Year with 2000
       And I select Gender on Male
       And I fill Mobile phone with +59170707070
-      And I fill Current email address with user@mailcom
+      And I fill Current email address with user@mail.com
